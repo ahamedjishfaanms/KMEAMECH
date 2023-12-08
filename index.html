@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Responsive Navigation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="logo">Your Logo</div>
-    <div class="menu-toggle">&#9776;</div>
-    <ul class="nav-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+<!-- Navigation Bar -->
+<nav>
+    <div class="navbar-container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <!-- Add more navigation items as needed -->
+            </ul>
+        </div>
+        <div class="mobile-menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+    </div>
+</nav>
 
-  <div class="content">
-    <!-- Your page content goes here -->
-  </div>
+<!-- Other Sections... -->
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
